@@ -425,11 +425,13 @@ h1 {
 }
 
 @media (min-width: 900px) {
-  body {
-    overflow: hidden;
+  .hero {
+    min-height: auto;
+    padding-top: 32px;
+    padding-bottom: 24px;
   }
 
-  .hero {
-    min-height: calc(100svh - 140px);
+  .hero__instrument {
+    display: none;
   }
 }

@@ -1,1 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07090d">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" id="meta-description" content="EnuMind is a technology garage where thoughtful ideas become practical software and enduring digital products.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" id="og-title" content="EnuMind — Ideas engineered into useful systems">
+  <meta property="og:description" id="og-description" content="Engineering discipline, craftsmanship, experimentation, and long-term thinking.">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preload" as="image" href="assets/enumind-wordmark.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>EnuMind — Ideas engineered into useful systems</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__glow ambient__glow--one"></div>
+    <div class="ambient__glow ambient__glow--two"></div>
+    <div class="ambient__grid"></div>
+    <div class="ambient__grain"></div>
+  </div>
+
+  <header class="site-header shell">
+    <a class="brand" href="#main" aria-label="EnuMind home">
+      <img src="assets/enumind-mark.png" width="96" height="58" alt="" class="brand__mark">
+      <span class="brand__name" data-site-title>EnuMind</span>
+    </a>
+    <div class="header-status" aria-label="Independent engineering studio">
+      <span class="header-status__dot"></span>
+      <span>Independent engineering studio</span>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <div class="wordmark-wrap" aria-label="EnuMind">
+          <img class="wordmark" src="assets/enumind-wordmark.png" alt="EnuMind" width="1340" height="340">
+        </div>
+
+        <h1 id="hero-title" data-tagline>Ideas engineered into useful systems.</h1>
+        <p class="hero__about" data-about>
+          EnuMind is a technology garage where engineering discipline, craftsmanship, experimentation, and long-term thinking come together to build technology that matters.
+        </p>
+
+        <div class="hero__actions" aria-label="Primary links">
+          <a class="button button--primary" data-github-link href="https://github.com/nateshpp" target="_blank" rel="noreferrer">
+            <span>Explore GitHub</span>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6.25 13.75 13.75 6.25M8 6.25h5.75V12"/></svg>
+          </a>
+          <a class="button button--secondary" data-contact-link href="mailto:nateshpp@yahoo.com">
+            <span>Contact</span>
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3.25 5.5h13.5v9h-13.5zM3.75 6l6.25 5 6.25-5"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__instrument" aria-hidden="true">
+        <div class="instrument__rail instrument__rail--top"></div>
+        <div class="instrument__rail instrument__rail--bottom"></div>
+        <div class="instrument__node instrument__node--one"></div>
+        <div class="instrument__node instrument__node--two"></div>
+        <div class="instrument__node instrument__node--three"></div>
+        <span class="instrument__label instrument__label--left">THOUGHT</span>
+        <span class="instrument__label instrument__label--middle">ENGINEERING</span>
+        <span class="instrument__label instrument__label--right">UTILITY</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <span>© <span id="year"></span> <span data-site-title>EnuMind</span></span>
+    <span class="site-footer__line" data-footer-line>Thoughtful technology. Built to endure.</span>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -414,6 +414,18 @@ h1 {
   }
 }
 
+.brand__mark {
+  width: 44px !important;
+  height: auto !important;
+  max-width: 44px !important;
+}
+@media (max-width: 640px) {
+  .brand__mark {
+    width: 40px !important;
+    max-width: 40px !important;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {

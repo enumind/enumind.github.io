@@ -16,14 +16,18 @@
   if (config.pageTitle) {
     document.title = config.pageTitle;
     const ogTitle = document.getElementById('og-title');
+    const twitterTitle = document.getElementById('twitter-title');
     if (ogTitle) ogTitle.setAttribute('content', config.pageTitle);
+    if (twitterTitle) twitterTitle.setAttribute('content', config.pageTitle);
   }
 
   if (config.description) {
     const description = document.getElementById('meta-description');
     const ogDescription = document.getElementById('og-description');
+    const twitterDescription = document.getElementById('twitter-description');
     if (description) description.setAttribute('content', config.description);
     if (ogDescription) ogDescription.setAttribute('content', config.description);
+    if (twitterDescription) twitterDescription.setAttribute('content', config.description);
   }
 
   const github = document.querySelector('[data-github-link]');

@@ -126,9 +126,8 @@ a { color: inherit; }
 }
 
 .brand__mark {
-  width: 34px;
-  height: 24px;
-  object-fit: contain;
+  max-width: 54px;
+  height: auto;
   opacity: .96;
   filter: drop-shadow(0 4px 10px rgba(0,0,0,.45));
 }

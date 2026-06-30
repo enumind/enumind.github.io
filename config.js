@@ -8,9 +8,9 @@ window.ENUMIND_CONFIG = {
   description: "EnuMind is a technology garage where thoughtful ideas become practical software, open-source systems, and enduring digital products.",
   tagline: "Ideas engineered into useful systems.",
   about: "EnuMind is a technology garage where engineering discipline, craftsmanship, experimentation, and long-term thinking come together to build technology that matters.",
-  githubUrl: "https://github.com/nateshpp",
-  contactEmail: "nateshpp@yahoo.com",
-  footerLine: "Thoughtful technology. Built to endure.",
+  githubUrl: "https://github.com/enumind",
+  contactEmail: "enumind@pm.me",
+  footerLine: "Thoughtful technology. Built to evolve.",
   colors: {
     background: "#07090d",
     surface: "#0d1117",

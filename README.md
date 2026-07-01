@@ -11,6 +11,8 @@ A static, framework-free landing page prepared for GitHub Pages.
 
 ## Configure
 
-Edit `config.js` to change the title, copy, GitHub URL, contact email, footer line, or color tokens. `config.properties` mirrors the same values as a reference for external tooling.
+Edit `config.js` to change the title, copy, footer line, or color tokens. `config.properties` mirrors the same values as a reference for external tooling.
+
+Edit `products.js` to add, remove, or reorder the product tiles on the homepage — each entry takes a `name`, `logo`, `summary`, `link`, and optional `linkLabel`. `products.properties` mirrors the same values as a reference for external tooling. The tile carousel scrolls left/right automatically once there are more products than fit on screen.
 
 No build command or framework is required.

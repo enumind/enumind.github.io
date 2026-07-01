@@ -28,9 +28,10 @@
   <meta name="twitter:image" content="https://enumind.com/assets/og-image.jpg">
   <meta name="twitter:image:alt" content="EnuMind">
 
-  <link rel="icon" type="image/png" sizes="256x256" href="assets/enumind_gold.png">
-  <link rel="shortcut icon" href="assets/enumind_gold.png">
-  <link rel="apple-touch-icon" href="assets/enumind_gold.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/favicon-512.png">
+  <link rel="shortcut icon" href="assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="preload" as="image" href="assets/enumind-wordmark.png">
   <link rel="stylesheet" href="styles.css">
   <title>EnuMind — Ideas engineered into useful systems</title>
@@ -71,10 +72,11 @@
           <img
             class="wordmark"
             src="assets/enumind-wordmark.png"
-            width="1692"
-            height="250"
+            width="1080"
+            height="160"
             alt="EnuMind"
             decoding="async"
+            fetchpriority="high"
           >
         </div>
 
@@ -83,20 +85,6 @@
           EnuMind is a technology garage where engineering discipline, craftsmanship, experimentation, and long-term thinking come together to build technology that matters.
         </p>
 
-        <div class="hero__actions" aria-label="Primary links">
-          <a class="button button--primary" data-github-link href="https://github.com/enumind" target="_blank" rel="noopener noreferrer">
-            <span>Explore GitHub</span>
-            <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
-              <path d="M6.25 13.75 13.75 6.25M8 6.25h5.75V12"></path>
-            </svg>
-          </a>
-          <a class="button button--secondary" data-contact-link href="mailto:enumind@pm.me">
-            <span>Contact</span>
-            <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
-              <path d="M3.25 5.5h13.5v9h-13.5zM3.75 6l6.25 5 6.25-5"></path>
-            </svg>
-          </a>
-        </div>
       </div>
 
       <div class="hero__instrument" aria-hidden="true">
@@ -110,6 +98,29 @@
         <span class="instrument__label instrument__label--right">UTILITY</span>
       </div>
     </section>
+
+    <section class="products shell" aria-labelledby="products-title">
+      <div class="products__head">
+        <h2 id="products-title">From the garage</h2>
+        <p class="products__intro">Products EnuMind has designed, built, and shipped.</p>
+      </div>
+
+      <div class="carousel" data-carousel>
+        <button class="carousel__nav carousel__nav--prev" data-carousel-prev type="button" aria-label="Scroll to previous product" hidden>
+          <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+            <path d="M12.5 15 7.5 10l5-5"></path>
+          </svg>
+        </button>
+
+        <ul class="carousel__track" data-carousel-track aria-label="EnuMind products"></ul>
+
+        <button class="carousel__nav carousel__nav--next" data-carousel-next type="button" aria-label="Scroll to next product" hidden>
+          <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+            <path d="M7.5 15l5-5-5-5"></path>
+          </svg>
+        </button>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer shell">
@@ -118,6 +129,7 @@
   </footer>
 
   <script src="config.js" defer></script>
+  <script src="products.js" defer></script>
   <script src="script.js" defer></script>
 </body>
 </html>
